@@ -7,7 +7,7 @@ CSI combines four nonlinear dynamics features:
 - Sample Entropy (SampEn) &
 - Recurrence Rate (RQA)
 All features normalized so to understand the variation in deterministic chaos structure
-## Dataset & Experiment Setup
+## Dataset & Experiment
 - **Base data:** 50 LibriSpeech `test-clean` utterances (longest files by duration)
 - **Noise injection:** 10 chaotic noise systems — Logistic, Skew Tent, Hénon, Bernoulli, Ikeda, Lorenz, Rössler, Chen, Mackey-Glass, Duffing
 - **SNR levels:** -10, -5, 0, 5, 10 dB
