@@ -15,7 +15,7 @@ All features normalized so to understand the variation in deterministic chaos st
 ### Absolute Topological Mapping
 Evaluating metric behavior at maximum degradation (-10 dB SNR) exposes the limitations of linear acoustic scoring.
 
-![PESQ vs CSI at -10 dB SNR](results/final_result.png)
+![PESQ vs CSI at -10 dB SNR](Results/final_result.png)
 
 * **The PESQ Blind Spot:** The industry-standard metric grades heavily corrupted Bernoulli noise at 4.41, nearly identical to the 4.64 clean speech baseline. Linear algorithms cannot detect discrete binary jumps.
 * **CSI Gradient Separation:** The Chaos Signature Index maps structural corruption accurately. It distributes the continuous chaotic systems along a distinct numerical gradient, ranging from 0.165 to 0.344.
